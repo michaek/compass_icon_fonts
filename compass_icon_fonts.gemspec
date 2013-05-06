@@ -20,6 +20,10 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake'
   s.add_development_dependency 'bundler'
   s.add_development_dependency 'rspec', '~> 2.13.0'
+  s.add_development_dependency 'vcr'
+  s.add_development_dependency 'webmock', ['>= 1.8.0', '< 1.10']
+  s.add_development_dependency 'nokogiri'
+  s.add_development_dependency 'active_support'
 
   s.add_dependency 'compass', '>= 0.11'
 end
