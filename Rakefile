@@ -26,3 +26,14 @@ task :build do
   end
 
 end
+
+task :pages do
+  base = CompassIconFonts.base_directory
+
+  system 'rsync --exclude ".*" --delete -anv %s/docs/ %s/gh-pages/' % [base, base]
+  system 'cd %s/gh-pages/' % base
+  system 'git add .'
+  system 'git commit -m "Updating GitHub pages."'
+  system 'git push origin gh-pages'
+  system 'cd %s' % base
+end
