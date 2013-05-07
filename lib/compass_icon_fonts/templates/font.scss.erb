@@ -5,6 +5,5 @@
 
 $<%= variable %>-files: "<%= files.join('", "') %>";
 
-$<%= variable %>-characters:<% last = pairs.values.last %>
-<% pairs.each do |classname, character| %>
+$<%= variable %>-characters:<% last = pairs.values.last %><% pairs.each do |classname, character| %>
     "<%= classname %>", "<%= character %>"<%= character == last ? ';' : ',' %><% end %>
