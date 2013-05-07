@@ -6,13 +6,13 @@
 @import "compass/css3/font-face";
 @import "compass-icon-fonts";
 
-$icon-font-family: "<%= name %>";
+$compass-icon-fonts-family: "<%= name %>";
 
-$icon-font-class: "<%= variable %>";
+$compass-icon-fonts-class: "<%= variable %>";
 
-$icon-font-files: font-files("<%= files.join('", "') %>");
+$compass-icon-fonts-files: font-files("<%= files.join('", "') %>");
 
-$icon-font-size: <%= size %>;
+$compass-icon-fonts-size: <%= size %>;
 
-$icon-font-characters:<% last = pairs.values.last %><% pairs.each do |classname, character| %>
+$compass-icon-fonts-characters:<% last = pairs.values.last %><% pairs.each do |classname, character| %>
     "<%= classname %>", "<%= character %>"<%= character == last ? ';' : ',' %><% end %>

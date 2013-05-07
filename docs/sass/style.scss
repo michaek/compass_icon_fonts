@@ -1,8 +1,8 @@
-@import "icon-fonts/entypo";
+@import "compass-icon-fonts/entypo";
 
 @include compass-icon-fonts-family;
 
-%icon-fonts-#{$icon-font-class}-after {
+%compass-icon-fonts-#{$compass-icon-fonts-class}-after {
   padding-left: $compass-icon-fonts-horizontalPadding;
   color: red;
 }

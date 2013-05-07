@@ -50,7 +50,7 @@ module CompassIconFonts::Fonts
     def build
       dashed_name = ActiveSupport::Inflector.dasherize(ActiveSupport::Inflector.underscore(name))
       template = 'lib/compass_icon_fonts/templates/font.scss.erb'
-      destination = 'stylesheets/icon-fonts/%s.scss' % dashed_name
+      destination = 'stylesheets/compass-icon-fonts/%s.scss' % dashed_name
       erb = ERB.new(File.read(File.expand_path(template, CompassIconFonts.base_directory)))
 
       locals = { name: name, variable: dashed_name, pairs: pairs, size: size, files: fonts.product(extensions).map{|file| file.join '.' } }

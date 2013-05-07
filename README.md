@@ -20,27 +20,29 @@ In this plugin, I'm not distributing font files. Part of the process of setting 
 
 By default, only a small amount of padding is applied to icons that are prepended or appended. Any other styles can be applied by modifying placeholder selector blocks before invoking compass-icon-fonts-set().
 
-Each font face configured in this plugin has configuration for regenerating a standard font data file (see: stylesheets/icon-fonts) from a canonical list of keynames and unicode characters. This way, we can keep our fonts up to date, and implement multiple icon fonts with a consistent API in SASS.
+Each font face configured in this plugin has configuration for regenerating a standard font data file (see: stylesheets/compass-icon-fonts/) from a canonical list of keynames and unicode characters. This way, we can keep our fonts up to date, and implement multiple icon fonts with a consistent API in SASS.
 
 In the future, I foresee that font support will be moved into specific dependent plugins, like compass-icon-fonts-entypo, to ease versioning and keep this gem uncluttered. For now, any supported font is included here.
 
 ## Install
 
+Download the font you're using, and put the .woff, .ttf, etc files in your Compass fonts dir.
+
     # If you're using Bundler, add the gem to your Gemfile
-    gem 'compass-font-icons'
+    gem 'compass_icon_fonts'
     # Then install
     $ bundle install
 
     # Or install it manually
-    $ gem install compass-font-icons
+    $ gem install compass_icon_fonts
 
     # Add the following lines to your compass configuration file:
-    require 'compass_font_icons'
+    require 'compass_icon_fonts'
 
 ## Use
 
     # Import the specific font you'll be using.
-    @import "icon-fonts/entypo";
+    @import "compass-icon-fonts/entypo";
 
     # Add the font family. Any of the variables from the font data 
     # can be overridden before this line.

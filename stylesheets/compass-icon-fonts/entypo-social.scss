@@ -1,20 +1,20 @@
 //
 // EntypoSocial
 //
-//   generated 05/07/13 11:29:19 AM
+//   generated 05/07/13 12:56:45 PM
 
 @import "compass/css3/font-face";
 @import "compass-icon-fonts";
 
-$icon-font-family: "EntypoSocial";
+$compass-icon-fonts-family: "EntypoSocial";
 
-$icon-font-class: "entypo-social";
+$compass-icon-fonts-class: "entypo-social";
 
-$icon-font-files: font-files("entypo-social.eot", "entypo-social.woff", "entypo-social.ttf", "entypo-social.svg");
+$compass-icon-fonts-files: font-files("entypo-social.eot", "entypo-social.woff", "entypo-social.ttf", "entypo-social.svg");
 
-$icon-font-size: 1.25em;
+$compass-icon-fonts-size: 1.25em;
 
-$icon-font-characters:
+$compass-icon-fonts-characters:
     "github", "",
     "c-github", "",
     "flickr", "",
