@@ -22,4 +22,3 @@ doc/
 .ruby-gemset
 Gemfile.lock
 .sass-cache
-http_cache
