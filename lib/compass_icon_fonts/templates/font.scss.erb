@@ -3,7 +3,16 @@
 //
 //   generated <%= Time.now.strftime('%D %r') %>
 
-$<%= variable %>-files: "<%= files.join('", "') %>";
+@import "compass/css3/font-face";
+@import "compass-icon-fonts";
 
-$<%= variable %>-characters:<% last = pairs.values.last %><% pairs.each do |classname, character| %>
+$icon-font-family: "<%= name %>";
+
+$icon-font-class: "<%= variable %>";
+
+$icon-font-files: font-files("<%= files.join('", "') %>");
+
+$icon-font-size: <%= size %>;
+
+$icon-font-characters:<% last = pairs.values.last %><% pairs.each do |classname, character| %>
     "<%= classname %>", "<%= character %>"<%= character == last ? ';' : ',' %><% end %>

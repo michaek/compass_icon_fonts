@@ -1,12 +1,20 @@
 //
 // Entypo
 //
-//   generated 05/06/13 04:51:23 PM
+//   generated 05/07/13 11:29:19 AM
 
-$entypo-files: "entypo.eot", "entypo.svg", "entypo.ttf", "entypo.woff";
+@import "compass/css3/font-face";
+@import "compass-icon-fonts";
 
-$entypo-characters:
+$icon-font-family: "Entypo";
 
+$icon-font-class: "entypo";
+
+$icon-font-files: font-files("entypo.eot", "entypo.woff", "entypo.ttf", "entypo.svg");
+
+$icon-font-size: 1.25em;
+
+$icon-font-characters:
     "phone", "📞",
     "mobile", "📱",
     "mouse", "",

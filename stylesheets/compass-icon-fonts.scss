@@ -1,0 +1,45 @@
+$compass-icon-fonts-horizontalPadding: 0.2em !default;
+
+@mixin compass-icon-fonts-family() {
+  @include font-face($icon-font-family, $icon-font-files);
+
+  %icon-fonts-#{$icon-font-class} {
+    font-size: $icon-font-size;
+    font-family: $icon-font-family;
+  }
+
+  %icon-fonts-#{$icon-font-class}-before {
+    padding-right: $compass-icon-fonts-horizontalPadding;
+  }
+
+  %icon-fonts-#{$icon-font-class}-after {
+    padding-left: $compass-icon-fonts-horizontalPadding;
+  }
+
+}
+
+@mixin compass-icon-fonts-set($set: all, $prefix: $icon-font-class, $append: false) {
+  @for $i from 1 through length($icon-font-characters)/2 {
+    $keyword: nth($icon-font-characters, ($i*2 - 1));
+    $character: nth($icon-font-characters, $i*2);
+
+    @if $set == "all" or index($set, $keyword) {
+      %#{$icon-font-class}-#{$keyword} {
+        @extend %icon-fonts-#{$icon-font-class};
+        content: $character;
+      }
+
+      .#{$prefix}-#{$keyword}:before {
+        @extend %icon-fonts-#{$icon-font-class}-before;
+        @extend %#{$icon-font-class}-#{$keyword};
+      }
+
+      @if $append {
+        .#{$prefix}-#{$keyword}-append:after {
+          @extend %icon-fonts-#{$icon-font-class}-after;
+          @extend %#{$icon-font-class}-#{$keyword};
+        }
+      }
+    }
+  }
+}
