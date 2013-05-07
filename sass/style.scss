@@ -1,0 +1,10 @@
+@import "compass-icon-fonts/entypo";
+
+@include compass-icon-fonts-family;
+
+%compass-icon-fonts-#{$compass-icon-fonts-class}-after {
+  padding-left: $compass-icon-fonts-horizontalPadding;
+  color: red;
+}
+
+@include compass-icon-fonts-set($append: true);

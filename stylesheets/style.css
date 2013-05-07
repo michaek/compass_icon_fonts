@@ -1,0 +1,486 @@
+@charset "UTF-8";
+@font-face { font-family: "Entypo"; src: url('../fonts/entypo.eot') format('embedded-opentype'), url('../fonts/entypo.woff') format('woff'), url('../fonts/entypo.ttf') format('truetype'), url('../fonts/entypo.svg') format('svg'); }
+
+.entypo-phone:before, .entypo-phone-append:after, .entypo-mobile:before, .entypo-mobile-append:after, .entypo-mouse:before, .entypo-mouse-append:after, .entypo-address:before, .entypo-address-append:after, .entypo-mail:before, .entypo-mail-append:after, .entypo-paper-plane:before, .entypo-paper-plane-append:after, .entypo-pencil:before, .entypo-pencil-append:after, .entypo-feather:before, .entypo-feather-append:after, .entypo-attach:before, .entypo-attach-append:after, .entypo-inbox:before, .entypo-inbox-append:after, .entypo-reply:before, .entypo-reply-append:after, .entypo-reply-all:before, .entypo-reply-all-append:after, .entypo-forward:before, .entypo-forward-append:after, .entypo-user:before, .entypo-user-append:after, .entypo-users:before, .entypo-users-append:after, .entypo-add-user:before, .entypo-add-user-append:after, .entypo-vcard:before, .entypo-vcard-append:after, .entypo-export:before, .entypo-export-append:after, .entypo-location:before, .entypo-location-append:after, .entypo-map:before, .entypo-map-append:after, .entypo-compass:before, .entypo-compass-append:after, .entypo-direction:before, .entypo-direction-append:after, .entypo-hair-cross:before, .entypo-hair-cross-append:after, .entypo-share:before, .entypo-share-append:after, .entypo-shareable:before, .entypo-shareable-append:after, .entypo-heart:before, .entypo-heart-append:after, .entypo-heart-empty:before, .entypo-heart-empty-append:after, .entypo-star:before, .entypo-star-append:after, .entypo-star-empty:before, .entypo-star-empty-append:after, .entypo-thumbs-up:before, .entypo-thumbs-up-append:after, .entypo-thumbs-down:before, .entypo-thumbs-down-append:after, .entypo-chat:before, .entypo-chat-append:after, .entypo-comment:before, .entypo-comment-append:after, .entypo-quote:before, .entypo-quote-append:after, .entypo-home:before, .entypo-home-append:after, .entypo-popup:before, .entypo-popup-append:after, .entypo-search:before, .entypo-search-append:after, .entypo-flashlight:before, .entypo-flashlight-append:after, .entypo-print:before, .entypo-print-append:after, .entypo-bell:before, .entypo-bell-append:after, .entypo-link:before, .entypo-link-append:after, .entypo-flag:before, .entypo-flag-append:after, .entypo-cog:before, .entypo-cog-append:after, .entypo-tools:before, .entypo-tools-append:after, .entypo-trophy:before, .entypo-trophy-append:after, .entypo-tag:before, .entypo-tag-append:after, .entypo-camera:before, .entypo-camera-append:after, .entypo-megaphone:before, .entypo-megaphone-append:after, .entypo-moon:before, .entypo-moon-append:after, .entypo-palette:before, .entypo-palette-append:after, .entypo-leaf:before, .entypo-leaf-append:after, .entypo-note:before, .entypo-note-append:after, .entypo-beamed-note:before, .entypo-beamed-note-append:after, .entypo-new:before, .entypo-new-append:after, .entypo-graduation-cap:before, .entypo-graduation-cap-append:after, .entypo-book:before, .entypo-book-append:after, .entypo-newspaper:before, .entypo-newspaper-append:after, .entypo-bag:before, .entypo-bag-append:after, .entypo-airplane:before, .entypo-airplane-append:after, .entypo-lifebuoy:before, .entypo-lifebuoy-append:after, .entypo-eye:before, .entypo-eye-append:after, .entypo-clock:before, .entypo-clock-append:after, .entypo-mic:before, .entypo-mic-append:after, .entypo-calendar:before, .entypo-calendar-append:after, .entypo-flash:before, .entypo-flash-append:after, .entypo-thunder-cloud:before, .entypo-thunder-cloud-append:after, .entypo-droplet:before, .entypo-droplet-append:after, .entypo-cd:before, .entypo-cd-append:after, .entypo-briefcase:before, .entypo-briefcase-append:after, .entypo-air:before, .entypo-air-append:after, .entypo-hourglass:before, .entypo-hourglass-append:after, .entypo-gauge:before, .entypo-gauge-append:after, .entypo-language:before, .entypo-language-append:after, .entypo-network:before, .entypo-network-append:after, .entypo-key:before, .entypo-key-append:after, .entypo-battery:before, .entypo-battery-append:after, .entypo-bucket:before, .entypo-bucket-append:after, .entypo-magnet:before, .entypo-magnet-append:after, .entypo-drive:before, .entypo-drive-append:after, .entypo-cup:before, .entypo-cup-append:after, .entypo-rocket:before, .entypo-rocket-append:after, .entypo-brush:before, .entypo-brush-append:after, .entypo-suitcase:before, .entypo-suitcase-append:after, .entypo-traffic-cone:before, .entypo-traffic-cone-append:after, .entypo-globe:before, .entypo-globe-append:after, .entypo-keyboard:before, .entypo-keyboard-append:after, .entypo-browser:before, .entypo-browser-append:after, .entypo-publish:before, .entypo-publish-append:after, .entypo-progress-3:before, .entypo-progress-3-append:after, .entypo-progress-2:before, .entypo-progress-2-append:after, .entypo-progress-1:before, .entypo-progress-1-append:after, .entypo-progress-0:before, .entypo-progress-0-append:after, .entypo-light-down:before, .entypo-light-down-append:after, .entypo-light-up:before, .entypo-light-up-append:after, .entypo-adjust:before, .entypo-adjust-append:after, .entypo-code:before, .entypo-code-append:after, .entypo-monitor:before, .entypo-monitor-append:after, .entypo-infinity:before, .entypo-infinity-append:after, .entypo-light-bulb:before, .entypo-light-bulb-append:after, .entypo-credit-card:before, .entypo-credit-card-append:after, .entypo-database:before, .entypo-database-append:after, .entypo-voicemail:before, .entypo-voicemail-append:after, .entypo-clipboard:before, .entypo-clipboard-append:after, .entypo-cart:before, .entypo-cart-append:after, .entypo-box:before, .entypo-box-append:after, .entypo-ticket:before, .entypo-ticket-append:after, .entypo-rss:before, .entypo-rss-append:after, .entypo-signal:before, .entypo-signal-append:after, .entypo-thermometer:before, .entypo-thermometer-append:after, .entypo-water:before, .entypo-water-append:after, .entypo-sweden:before, .entypo-sweden-append:after, .entypo-line-graph:before, .entypo-line-graph-append:after, .entypo-pie-chart:before, .entypo-pie-chart-append:after, .entypo-bar-graph:before, .entypo-bar-graph-append:after, .entypo-area-graph:before, .entypo-area-graph-append:after, .entypo-lock:before, .entypo-lock-append:after, .entypo-lock-open:before, .entypo-lock-open-append:after, .entypo-logout:before, .entypo-logout-append:after, .entypo-login:before, .entypo-login-append:after, .entypo-check:before, .entypo-check-append:after, .entypo-cross:before, .entypo-cross-append:after, .entypo-squared-minus:before, .entypo-squared-minus-append:after, .entypo-squared-plus:before, .entypo-squared-plus-append:after, .entypo-squared-cross:before, .entypo-squared-cross-append:after, .entypo-circled-minus:before, .entypo-circled-minus-append:after, .entypo-circled-plus:before, .entypo-circled-plus-append:after, .entypo-circled-cross:before, .entypo-circled-cross-append:after, .entypo-minus:before, .entypo-minus-append:after, .entypo-plus:before, .entypo-plus-append:after, .entypo-erase:before, .entypo-erase-append:after, .entypo-block:before, .entypo-block-append:after, .entypo-info:before, .entypo-info-append:after, .entypo-circled-info:before, .entypo-circled-info-append:after, .entypo-help:before, .entypo-help-append:after, .entypo-circled-help:before, .entypo-circled-help-append:after, .entypo-warning:before, .entypo-warning-append:after, .entypo-cycle:before, .entypo-cycle-append:after, .entypo-cw:before, .entypo-cw-append:after, .entypo-ccw:before, .entypo-ccw-append:after, .entypo-shuffle:before, .entypo-shuffle-append:after, .entypo-back:before, .entypo-back-append:after, .entypo-level-down:before, .entypo-level-down-append:after, .entypo-retweet:before, .entypo-retweet-append:after, .entypo-loop:before, .entypo-loop-append:after, .entypo-back-in-time:before, .entypo-back-in-time-append:after, .entypo-level-up:before, .entypo-level-up-append:after, .entypo-switch:before, .entypo-switch-append:after, .entypo-numbered-list:before, .entypo-numbered-list-append:after, .entypo-add-to-list:before, .entypo-add-to-list-append:after, .entypo-layout:before, .entypo-layout-append:after, .entypo-list:before, .entypo-list-append:after, .entypo-text-doc:before, .entypo-text-doc-append:after, .entypo-text-doc-inverted:before, .entypo-text-doc-inverted-append:after, .entypo-doc:before, .entypo-doc-append:after, .entypo-docs:before, .entypo-docs-append:after, .entypo-landscape-doc:before, .entypo-landscape-doc-append:after, .entypo-picture:before, .entypo-picture-append:after, .entypo-video:before, .entypo-video-append:after, .entypo-music:before, .entypo-music-append:after, .entypo-folder:before, .entypo-folder-append:after, .entypo-archive:before, .entypo-archive-append:after, .entypo-trash:before, .entypo-trash-append:after, .entypo-upload:before, .entypo-upload-append:after, .entypo-download:before, .entypo-download-append:after, .entypo-save:before, .entypo-save-append:after, .entypo-install:before, .entypo-install-append:after, .entypo-cloud:before, .entypo-cloud-append:after, .entypo-upload-cloud:before, .entypo-upload-cloud-append:after, .entypo-bookmark:before, .entypo-bookmark-append:after, .entypo-bookmarks:before, .entypo-bookmarks-append:after, .entypo-open-book:before, .entypo-open-book-append:after, .entypo-play:before, .entypo-play-append:after, .entypo-paus:before, .entypo-paus-append:after, .entypo-record:before, .entypo-record-append:after, .entypo-stop:before, .entypo-stop-append:after, .entypo-ff:before, .entypo-ff-append:after, .entypo-fb:before, .entypo-fb-append:after, .entypo-to-start:before, .entypo-to-start-append:after, .entypo-to-end:before, .entypo-to-end-append:after, .entypo-resize-full:before, .entypo-resize-full-append:after, .entypo-resize-small:before, .entypo-resize-small-append:after, .entypo-volume:before, .entypo-volume-append:after, .entypo-sound:before, .entypo-sound-append:after, .entypo-mute:before, .entypo-mute-append:after, .entypo-flow-cascade:before, .entypo-flow-cascade-append:after, .entypo-flow-branch:before, .entypo-flow-branch-append:after, .entypo-flow-tree:before, .entypo-flow-tree-append:after, .entypo-flow-line:before, .entypo-flow-line-append:after, .entypo-flow-parallel:before, .entypo-flow-parallel-append:after, .entypo-left-bold:before, .entypo-left-bold-append:after, .entypo-down-bold:before, .entypo-down-bold-append:after, .entypo-up-bold:before, .entypo-up-bold-append:after, .entypo-right-bold:before, .entypo-right-bold-append:after, .entypo-left:before, .entypo-left-append:after, .entypo-down:before, .entypo-down-append:after, .entypo-up:before, .entypo-up-append:after, .entypo-right:before, .entypo-right-append:after, .entypo-circled-left:before, .entypo-circled-left-append:after, .entypo-circled-down:before, .entypo-circled-down-append:after, .entypo-circled-up:before, .entypo-circled-up-append:after, .entypo-circled-right:before, .entypo-circled-right-append:after, .entypo-triangle-left:before, .entypo-triangle-left-append:after, .entypo-triangle-down:before, .entypo-triangle-down-append:after, .entypo-triangle-up:before, .entypo-triangle-up-append:after, .entypo-triangle-right:before, .entypo-triangle-right-append:after, .entypo-chevron-left:before, .entypo-chevron-left-append:after, .entypo-chevron-down:before, .entypo-chevron-down-append:after, .entypo-chevron-up:before, .entypo-chevron-up-append:after, .entypo-chevron-right:before, .entypo-chevron-right-append:after, .entypo-chevron-small-left:before, .entypo-chevron-small-left-append:after, .entypo-chevron-small-down:before, .entypo-chevron-small-down-append:after, .entypo-chevron-small-up:before, .entypo-chevron-small-up-append:after, .entypo-chevron-small-right:before, .entypo-chevron-small-right-append:after, .entypo-chevron-thin-left:before, .entypo-chevron-thin-left-append:after, .entypo-chevron-thin-down:before, .entypo-chevron-thin-down-append:after, .entypo-chevron-thin-up:before, .entypo-chevron-thin-up-append:after, .entypo-chevron-thin-right:before, .entypo-chevron-thin-right-append:after, .entypo-left-thin:before, .entypo-left-thin-append:after, .entypo-down-thin:before, .entypo-down-thin-append:after, .entypo-up-thin:before, .entypo-up-thin-append:after, .entypo-right-thin:before, .entypo-right-thin-append:after, .entypo-arrow-combo:before, .entypo-arrow-combo-append:after, .entypo-three-dots:before, .entypo-three-dots-append:after, .entypo-two-dots:before, .entypo-two-dots-append:after, .entypo-dot:before, .entypo-dot-append:after, .entypo-cc:before, .entypo-cc-append:after, .entypo-cc-by:before, .entypo-cc-by-append:after, .entypo-cc-nc:before, .entypo-cc-nc-append:after, .entypo-cc-nc-eu:before, .entypo-cc-nc-eu-append:after, .entypo-cc-nc-jp:before, .entypo-cc-nc-jp-append:after, .entypo-cc-sa:before, .entypo-cc-sa-append:after, .entypo-cc-nd:before, .entypo-cc-nd-append:after, .entypo-cc-pd:before, .entypo-cc-pd-append:after, .entypo-cc-zero:before, .entypo-cc-zero-append:after, .entypo-cc-share:before, .entypo-cc-share-append:after, .entypo-cc-remix:before, .entypo-cc-remix-append:after, .entypo-db-logo:before, .entypo-db-logo-append:after, .entypo-db-shape:before, .entypo-db-shape-append:after { font-size: 1.25em; font-family: "Entypo"; }
+
+.entypo-phone:before, .entypo-mobile:before, .entypo-mouse:before, .entypo-address:before, .entypo-mail:before, .entypo-paper-plane:before, .entypo-pencil:before, .entypo-feather:before, .entypo-attach:before, .entypo-inbox:before, .entypo-reply:before, .entypo-reply-all:before, .entypo-forward:before, .entypo-user:before, .entypo-users:before, .entypo-add-user:before, .entypo-vcard:before, .entypo-export:before, .entypo-location:before, .entypo-map:before, .entypo-compass:before, .entypo-direction:before, .entypo-hair-cross:before, .entypo-share:before, .entypo-shareable:before, .entypo-heart:before, .entypo-heart-empty:before, .entypo-star:before, .entypo-star-empty:before, .entypo-thumbs-up:before, .entypo-thumbs-down:before, .entypo-chat:before, .entypo-comment:before, .entypo-quote:before, .entypo-home:before, .entypo-popup:before, .entypo-search:before, .entypo-flashlight:before, .entypo-print:before, .entypo-bell:before, .entypo-link:before, .entypo-flag:before, .entypo-cog:before, .entypo-tools:before, .entypo-trophy:before, .entypo-tag:before, .entypo-camera:before, .entypo-megaphone:before, .entypo-moon:before, .entypo-palette:before, .entypo-leaf:before, .entypo-note:before, .entypo-beamed-note:before, .entypo-new:before, .entypo-graduation-cap:before, .entypo-book:before, .entypo-newspaper:before, .entypo-bag:before, .entypo-airplane:before, .entypo-lifebuoy:before, .entypo-eye:before, .entypo-clock:before, .entypo-mic:before, .entypo-calendar:before, .entypo-flash:before, .entypo-thunder-cloud:before, .entypo-droplet:before, .entypo-cd:before, .entypo-briefcase:before, .entypo-air:before, .entypo-hourglass:before, .entypo-gauge:before, .entypo-language:before, .entypo-network:before, .entypo-key:before, .entypo-battery:before, .entypo-bucket:before, .entypo-magnet:before, .entypo-drive:before, .entypo-cup:before, .entypo-rocket:before, .entypo-brush:before, .entypo-suitcase:before, .entypo-traffic-cone:before, .entypo-globe:before, .entypo-keyboard:before, .entypo-browser:before, .entypo-publish:before, .entypo-progress-3:before, .entypo-progress-2:before, .entypo-progress-1:before, .entypo-progress-0:before, .entypo-light-down:before, .entypo-light-up:before, .entypo-adjust:before, .entypo-code:before, .entypo-monitor:before, .entypo-infinity:before, .entypo-light-bulb:before, .entypo-credit-card:before, .entypo-database:before, .entypo-voicemail:before, .entypo-clipboard:before, .entypo-cart:before, .entypo-box:before, .entypo-ticket:before, .entypo-rss:before, .entypo-signal:before, .entypo-thermometer:before, .entypo-water:before, .entypo-sweden:before, .entypo-line-graph:before, .entypo-pie-chart:before, .entypo-bar-graph:before, .entypo-area-graph:before, .entypo-lock:before, .entypo-lock-open:before, .entypo-logout:before, .entypo-login:before, .entypo-check:before, .entypo-cross:before, .entypo-squared-minus:before, .entypo-squared-plus:before, .entypo-squared-cross:before, .entypo-circled-minus:before, .entypo-circled-plus:before, .entypo-circled-cross:before, .entypo-minus:before, .entypo-plus:before, .entypo-erase:before, .entypo-block:before, .entypo-info:before, .entypo-circled-info:before, .entypo-help:before, .entypo-circled-help:before, .entypo-warning:before, .entypo-cycle:before, .entypo-cw:before, .entypo-ccw:before, .entypo-shuffle:before, .entypo-back:before, .entypo-level-down:before, .entypo-retweet:before, .entypo-loop:before, .entypo-back-in-time:before, .entypo-level-up:before, .entypo-switch:before, .entypo-numbered-list:before, .entypo-add-to-list:before, .entypo-layout:before, .entypo-list:before, .entypo-text-doc:before, .entypo-text-doc-inverted:before, .entypo-doc:before, .entypo-docs:before, .entypo-landscape-doc:before, .entypo-picture:before, .entypo-video:before, .entypo-music:before, .entypo-folder:before, .entypo-archive:before, .entypo-trash:before, .entypo-upload:before, .entypo-download:before, .entypo-save:before, .entypo-install:before, .entypo-cloud:before, .entypo-upload-cloud:before, .entypo-bookmark:before, .entypo-bookmarks:before, .entypo-open-book:before, .entypo-play:before, .entypo-paus:before, .entypo-record:before, .entypo-stop:before, .entypo-ff:before, .entypo-fb:before, .entypo-to-start:before, .entypo-to-end:before, .entypo-resize-full:before, .entypo-resize-small:before, .entypo-volume:before, .entypo-sound:before, .entypo-mute:before, .entypo-flow-cascade:before, .entypo-flow-branch:before, .entypo-flow-tree:before, .entypo-flow-line:before, .entypo-flow-parallel:before, .entypo-left-bold:before, .entypo-down-bold:before, .entypo-up-bold:before, .entypo-right-bold:before, .entypo-left:before, .entypo-down:before, .entypo-up:before, .entypo-right:before, .entypo-circled-left:before, .entypo-circled-down:before, .entypo-circled-up:before, .entypo-circled-right:before, .entypo-triangle-left:before, .entypo-triangle-down:before, .entypo-triangle-up:before, .entypo-triangle-right:before, .entypo-chevron-left:before, .entypo-chevron-down:before, .entypo-chevron-up:before, .entypo-chevron-right:before, .entypo-chevron-small-left:before, .entypo-chevron-small-down:before, .entypo-chevron-small-up:before, .entypo-chevron-small-right:before, .entypo-chevron-thin-left:before, .entypo-chevron-thin-down:before, .entypo-chevron-thin-up:before, .entypo-chevron-thin-right:before, .entypo-left-thin:before, .entypo-down-thin:before, .entypo-up-thin:before, .entypo-right-thin:before, .entypo-arrow-combo:before, .entypo-three-dots:before, .entypo-two-dots:before, .entypo-dot:before, .entypo-cc:before, .entypo-cc-by:before, .entypo-cc-nc:before, .entypo-cc-nc-eu:before, .entypo-cc-nc-jp:before, .entypo-cc-sa:before, .entypo-cc-nd:before, .entypo-cc-pd:before, .entypo-cc-zero:before, .entypo-cc-share:before, .entypo-cc-remix:before, .entypo-db-logo:before, .entypo-db-shape:before { padding-right: 0.2em; }
+
+.entypo-phone-append:after, .entypo-mobile-append:after, .entypo-mouse-append:after, .entypo-address-append:after, .entypo-mail-append:after, .entypo-paper-plane-append:after, .entypo-pencil-append:after, .entypo-feather-append:after, .entypo-attach-append:after, .entypo-inbox-append:after, .entypo-reply-append:after, .entypo-reply-all-append:after, .entypo-forward-append:after, .entypo-user-append:after, .entypo-users-append:after, .entypo-add-user-append:after, .entypo-vcard-append:after, .entypo-export-append:after, .entypo-location-append:after, .entypo-map-append:after, .entypo-compass-append:after, .entypo-direction-append:after, .entypo-hair-cross-append:after, .entypo-share-append:after, .entypo-shareable-append:after, .entypo-heart-append:after, .entypo-heart-empty-append:after, .entypo-star-append:after, .entypo-star-empty-append:after, .entypo-thumbs-up-append:after, .entypo-thumbs-down-append:after, .entypo-chat-append:after, .entypo-comment-append:after, .entypo-quote-append:after, .entypo-home-append:after, .entypo-popup-append:after, .entypo-search-append:after, .entypo-flashlight-append:after, .entypo-print-append:after, .entypo-bell-append:after, .entypo-link-append:after, .entypo-flag-append:after, .entypo-cog-append:after, .entypo-tools-append:after, .entypo-trophy-append:after, .entypo-tag-append:after, .entypo-camera-append:after, .entypo-megaphone-append:after, .entypo-moon-append:after, .entypo-palette-append:after, .entypo-leaf-append:after, .entypo-note-append:after, .entypo-beamed-note-append:after, .entypo-new-append:after, .entypo-graduation-cap-append:after, .entypo-book-append:after, .entypo-newspaper-append:after, .entypo-bag-append:after, .entypo-airplane-append:after, .entypo-lifebuoy-append:after, .entypo-eye-append:after, .entypo-clock-append:after, .entypo-mic-append:after, .entypo-calendar-append:after, .entypo-flash-append:after, .entypo-thunder-cloud-append:after, .entypo-droplet-append:after, .entypo-cd-append:after, .entypo-briefcase-append:after, .entypo-air-append:after, .entypo-hourglass-append:after, .entypo-gauge-append:after, .entypo-language-append:after, .entypo-network-append:after, .entypo-key-append:after, .entypo-battery-append:after, .entypo-bucket-append:after, .entypo-magnet-append:after, .entypo-drive-append:after, .entypo-cup-append:after, .entypo-rocket-append:after, .entypo-brush-append:after, .entypo-suitcase-append:after, .entypo-traffic-cone-append:after, .entypo-globe-append:after, .entypo-keyboard-append:after, .entypo-browser-append:after, .entypo-publish-append:after, .entypo-progress-3-append:after, .entypo-progress-2-append:after, .entypo-progress-1-append:after, .entypo-progress-0-append:after, .entypo-light-down-append:after, .entypo-light-up-append:after, .entypo-adjust-append:after, .entypo-code-append:after, .entypo-monitor-append:after, .entypo-infinity-append:after, .entypo-light-bulb-append:after, .entypo-credit-card-append:after, .entypo-database-append:after, .entypo-voicemail-append:after, .entypo-clipboard-append:after, .entypo-cart-append:after, .entypo-box-append:after, .entypo-ticket-append:after, .entypo-rss-append:after, .entypo-signal-append:after, .entypo-thermometer-append:after, .entypo-water-append:after, .entypo-sweden-append:after, .entypo-line-graph-append:after, .entypo-pie-chart-append:after, .entypo-bar-graph-append:after, .entypo-area-graph-append:after, .entypo-lock-append:after, .entypo-lock-open-append:after, .entypo-logout-append:after, .entypo-login-append:after, .entypo-check-append:after, .entypo-cross-append:after, .entypo-squared-minus-append:after, .entypo-squared-plus-append:after, .entypo-squared-cross-append:after, .entypo-circled-minus-append:after, .entypo-circled-plus-append:after, .entypo-circled-cross-append:after, .entypo-minus-append:after, .entypo-plus-append:after, .entypo-erase-append:after, .entypo-block-append:after, .entypo-info-append:after, .entypo-circled-info-append:after, .entypo-help-append:after, .entypo-circled-help-append:after, .entypo-warning-append:after, .entypo-cycle-append:after, .entypo-cw-append:after, .entypo-ccw-append:after, .entypo-shuffle-append:after, .entypo-back-append:after, .entypo-level-down-append:after, .entypo-retweet-append:after, .entypo-loop-append:after, .entypo-back-in-time-append:after, .entypo-level-up-append:after, .entypo-switch-append:after, .entypo-numbered-list-append:after, .entypo-add-to-list-append:after, .entypo-layout-append:after, .entypo-list-append:after, .entypo-text-doc-append:after, .entypo-text-doc-inverted-append:after, .entypo-doc-append:after, .entypo-docs-append:after, .entypo-landscape-doc-append:after, .entypo-picture-append:after, .entypo-video-append:after, .entypo-music-append:after, .entypo-folder-append:after, .entypo-archive-append:after, .entypo-trash-append:after, .entypo-upload-append:after, .entypo-download-append:after, .entypo-save-append:after, .entypo-install-append:after, .entypo-cloud-append:after, .entypo-upload-cloud-append:after, .entypo-bookmark-append:after, .entypo-bookmarks-append:after, .entypo-open-book-append:after, .entypo-play-append:after, .entypo-paus-append:after, .entypo-record-append:after, .entypo-stop-append:after, .entypo-ff-append:after, .entypo-fb-append:after, .entypo-to-start-append:after, .entypo-to-end-append:after, .entypo-resize-full-append:after, .entypo-resize-small-append:after, .entypo-volume-append:after, .entypo-sound-append:after, .entypo-mute-append:after, .entypo-flow-cascade-append:after, .entypo-flow-branch-append:after, .entypo-flow-tree-append:after, .entypo-flow-line-append:after, .entypo-flow-parallel-append:after, .entypo-left-bold-append:after, .entypo-down-bold-append:after, .entypo-up-bold-append:after, .entypo-right-bold-append:after, .entypo-left-append:after, .entypo-down-append:after, .entypo-up-append:after, .entypo-right-append:after, .entypo-circled-left-append:after, .entypo-circled-down-append:after, .entypo-circled-up-append:after, .entypo-circled-right-append:after, .entypo-triangle-left-append:after, .entypo-triangle-down-append:after, .entypo-triangle-up-append:after, .entypo-triangle-right-append:after, .entypo-chevron-left-append:after, .entypo-chevron-down-append:after, .entypo-chevron-up-append:after, .entypo-chevron-right-append:after, .entypo-chevron-small-left-append:after, .entypo-chevron-small-down-append:after, .entypo-chevron-small-up-append:after, .entypo-chevron-small-right-append:after, .entypo-chevron-thin-left-append:after, .entypo-chevron-thin-down-append:after, .entypo-chevron-thin-up-append:after, .entypo-chevron-thin-right-append:after, .entypo-left-thin-append:after, .entypo-down-thin-append:after, .entypo-up-thin-append:after, .entypo-right-thin-append:after, .entypo-arrow-combo-append:after, .entypo-three-dots-append:after, .entypo-two-dots-append:after, .entypo-dot-append:after, .entypo-cc-append:after, .entypo-cc-by-append:after, .entypo-cc-nc-append:after, .entypo-cc-nc-eu-append:after, .entypo-cc-nc-jp-append:after, .entypo-cc-sa-append:after, .entypo-cc-nd-append:after, .entypo-cc-pd-append:after, .entypo-cc-zero-append:after, .entypo-cc-share-append:after, .entypo-cc-remix-append:after, .entypo-db-logo-append:after, .entypo-db-shape-append:after { padding-left: 0.2em; }
+
+.entypo-phone-append:after, .entypo-mobile-append:after, .entypo-mouse-append:after, .entypo-address-append:after, .entypo-mail-append:after, .entypo-paper-plane-append:after, .entypo-pencil-append:after, .entypo-feather-append:after, .entypo-attach-append:after, .entypo-inbox-append:after, .entypo-reply-append:after, .entypo-reply-all-append:after, .entypo-forward-append:after, .entypo-user-append:after, .entypo-users-append:after, .entypo-add-user-append:after, .entypo-vcard-append:after, .entypo-export-append:after, .entypo-location-append:after, .entypo-map-append:after, .entypo-compass-append:after, .entypo-direction-append:after, .entypo-hair-cross-append:after, .entypo-share-append:after, .entypo-shareable-append:after, .entypo-heart-append:after, .entypo-heart-empty-append:after, .entypo-star-append:after, .entypo-star-empty-append:after, .entypo-thumbs-up-append:after, .entypo-thumbs-down-append:after, .entypo-chat-append:after, .entypo-comment-append:after, .entypo-quote-append:after, .entypo-home-append:after, .entypo-popup-append:after, .entypo-search-append:after, .entypo-flashlight-append:after, .entypo-print-append:after, .entypo-bell-append:after, .entypo-link-append:after, .entypo-flag-append:after, .entypo-cog-append:after, .entypo-tools-append:after, .entypo-trophy-append:after, .entypo-tag-append:after, .entypo-camera-append:after, .entypo-megaphone-append:after, .entypo-moon-append:after, .entypo-palette-append:after, .entypo-leaf-append:after, .entypo-note-append:after, .entypo-beamed-note-append:after, .entypo-new-append:after, .entypo-graduation-cap-append:after, .entypo-book-append:after, .entypo-newspaper-append:after, .entypo-bag-append:after, .entypo-airplane-append:after, .entypo-lifebuoy-append:after, .entypo-eye-append:after, .entypo-clock-append:after, .entypo-mic-append:after, .entypo-calendar-append:after, .entypo-flash-append:after, .entypo-thunder-cloud-append:after, .entypo-droplet-append:after, .entypo-cd-append:after, .entypo-briefcase-append:after, .entypo-air-append:after, .entypo-hourglass-append:after, .entypo-gauge-append:after, .entypo-language-append:after, .entypo-network-append:after, .entypo-key-append:after, .entypo-battery-append:after, .entypo-bucket-append:after, .entypo-magnet-append:after, .entypo-drive-append:after, .entypo-cup-append:after, .entypo-rocket-append:after, .entypo-brush-append:after, .entypo-suitcase-append:after, .entypo-traffic-cone-append:after, .entypo-globe-append:after, .entypo-keyboard-append:after, .entypo-browser-append:after, .entypo-publish-append:after, .entypo-progress-3-append:after, .entypo-progress-2-append:after, .entypo-progress-1-append:after, .entypo-progress-0-append:after, .entypo-light-down-append:after, .entypo-light-up-append:after, .entypo-adjust-append:after, .entypo-code-append:after, .entypo-monitor-append:after, .entypo-infinity-append:after, .entypo-light-bulb-append:after, .entypo-credit-card-append:after, .entypo-database-append:after, .entypo-voicemail-append:after, .entypo-clipboard-append:after, .entypo-cart-append:after, .entypo-box-append:after, .entypo-ticket-append:after, .entypo-rss-append:after, .entypo-signal-append:after, .entypo-thermometer-append:after, .entypo-water-append:after, .entypo-sweden-append:after, .entypo-line-graph-append:after, .entypo-pie-chart-append:after, .entypo-bar-graph-append:after, .entypo-area-graph-append:after, .entypo-lock-append:after, .entypo-lock-open-append:after, .entypo-logout-append:after, .entypo-login-append:after, .entypo-check-append:after, .entypo-cross-append:after, .entypo-squared-minus-append:after, .entypo-squared-plus-append:after, .entypo-squared-cross-append:after, .entypo-circled-minus-append:after, .entypo-circled-plus-append:after, .entypo-circled-cross-append:after, .entypo-minus-append:after, .entypo-plus-append:after, .entypo-erase-append:after, .entypo-block-append:after, .entypo-info-append:after, .entypo-circled-info-append:after, .entypo-help-append:after, .entypo-circled-help-append:after, .entypo-warning-append:after, .entypo-cycle-append:after, .entypo-cw-append:after, .entypo-ccw-append:after, .entypo-shuffle-append:after, .entypo-back-append:after, .entypo-level-down-append:after, .entypo-retweet-append:after, .entypo-loop-append:after, .entypo-back-in-time-append:after, .entypo-level-up-append:after, .entypo-switch-append:after, .entypo-numbered-list-append:after, .entypo-add-to-list-append:after, .entypo-layout-append:after, .entypo-list-append:after, .entypo-text-doc-append:after, .entypo-text-doc-inverted-append:after, .entypo-doc-append:after, .entypo-docs-append:after, .entypo-landscape-doc-append:after, .entypo-picture-append:after, .entypo-video-append:after, .entypo-music-append:after, .entypo-folder-append:after, .entypo-archive-append:after, .entypo-trash-append:after, .entypo-upload-append:after, .entypo-download-append:after, .entypo-save-append:after, .entypo-install-append:after, .entypo-cloud-append:after, .entypo-upload-cloud-append:after, .entypo-bookmark-append:after, .entypo-bookmarks-append:after, .entypo-open-book-append:after, .entypo-play-append:after, .entypo-paus-append:after, .entypo-record-append:after, .entypo-stop-append:after, .entypo-ff-append:after, .entypo-fb-append:after, .entypo-to-start-append:after, .entypo-to-end-append:after, .entypo-resize-full-append:after, .entypo-resize-small-append:after, .entypo-volume-append:after, .entypo-sound-append:after, .entypo-mute-append:after, .entypo-flow-cascade-append:after, .entypo-flow-branch-append:after, .entypo-flow-tree-append:after, .entypo-flow-line-append:after, .entypo-flow-parallel-append:after, .entypo-left-bold-append:after, .entypo-down-bold-append:after, .entypo-up-bold-append:after, .entypo-right-bold-append:after, .entypo-left-append:after, .entypo-down-append:after, .entypo-up-append:after, .entypo-right-append:after, .entypo-circled-left-append:after, .entypo-circled-down-append:after, .entypo-circled-up-append:after, .entypo-circled-right-append:after, .entypo-triangle-left-append:after, .entypo-triangle-down-append:after, .entypo-triangle-up-append:after, .entypo-triangle-right-append:after, .entypo-chevron-left-append:after, .entypo-chevron-down-append:after, .entypo-chevron-up-append:after, .entypo-chevron-right-append:after, .entypo-chevron-small-left-append:after, .entypo-chevron-small-down-append:after, .entypo-chevron-small-up-append:after, .entypo-chevron-small-right-append:after, .entypo-chevron-thin-left-append:after, .entypo-chevron-thin-down-append:after, .entypo-chevron-thin-up-append:after, .entypo-chevron-thin-right-append:after, .entypo-left-thin-append:after, .entypo-down-thin-append:after, .entypo-up-thin-append:after, .entypo-right-thin-append:after, .entypo-arrow-combo-append:after, .entypo-three-dots-append:after, .entypo-two-dots-append:after, .entypo-dot-append:after, .entypo-cc-append:after, .entypo-cc-by-append:after, .entypo-cc-nc-append:after, .entypo-cc-nc-eu-append:after, .entypo-cc-nc-jp-append:after, .entypo-cc-sa-append:after, .entypo-cc-nd-append:after, .entypo-cc-pd-append:after, .entypo-cc-zero-append:after, .entypo-cc-share-append:after, .entypo-cc-remix-append:after, .entypo-db-logo-append:after, .entypo-db-shape-append:after { padding-left: 0.2em; color: red; }
+
+.entypo-phone:before, .entypo-phone-append:after { content: "📞"; }
+
+.entypo-mobile:before, .entypo-mobile-append:after { content: "📱"; }
+
+.entypo-mouse:before, .entypo-mouse-append:after { content: ""; }
+
+.entypo-address:before, .entypo-address-append:after { content: ""; }
+
+.entypo-mail:before, .entypo-mail-append:after { content: "✉"; }
+
+.entypo-paper-plane:before, .entypo-paper-plane-append:after { content: "🔿"; }
+
+.entypo-pencil:before, .entypo-pencil-append:after { content: "✎"; }
+
+.entypo-feather:before, .entypo-feather-append:after { content: "✒"; }
+
+.entypo-attach:before, .entypo-attach-append:after { content: "📎"; }
+
+.entypo-inbox:before, .entypo-inbox-append:after { content: ""; }
+
+.entypo-reply:before, .entypo-reply-append:after { content: ""; }
+
+.entypo-reply-all:before, .entypo-reply-all-append:after { content: ""; }
+
+.entypo-forward:before, .entypo-forward-append:after { content: "➦"; }
+
+.entypo-user:before, .entypo-user-append:after { content: "👤"; }
+
+.entypo-users:before, .entypo-users-append:after { content: "👥"; }
+
+.entypo-add-user:before, .entypo-add-user-append:after { content: ""; }
+
+.entypo-vcard:before, .entypo-vcard-append:after { content: ""; }
+
+.entypo-export:before, .entypo-export-append:after { content: ""; }
+
+.entypo-location:before, .entypo-location-append:after { content: ""; }
+
+.entypo-map:before, .entypo-map-append:after { content: ""; }
+
+.entypo-compass:before, .entypo-compass-append:after { content: "➢"; }
+
+.entypo-direction:before, .entypo-direction-append:after { content: ""; }
+
+.entypo-hair-cross:before, .entypo-hair-cross-append:after { content: "🎯"; }
+
+.entypo-share:before, .entypo-share-append:after { content: ""; }
+
+.entypo-shareable:before, .entypo-shareable-append:after { content: ""; }
+
+.entypo-heart:before, .entypo-heart-append:after { content: "♥"; }
+
+.entypo-heart-empty:before, .entypo-heart-empty-append:after { content: "♡"; }
+
+.entypo-star:before, .entypo-star-append:after { content: "★"; }
+
+.entypo-star-empty:before, .entypo-star-empty-append:after { content: "☆"; }
+
+.entypo-thumbs-up:before, .entypo-thumbs-up-append:after { content: "👍"; }
+
+.entypo-thumbs-down:before, .entypo-thumbs-down-append:after { content: "👎"; }
+
+.entypo-chat:before, .entypo-chat-append:after { content: ""; }
+
+.entypo-comment:before, .entypo-comment-append:after { content: ""; }
+
+.entypo-quote:before, .entypo-quote-append:after { content: "❞"; }
+
+.entypo-home:before, .entypo-home-append:after { content: "⌂"; }
+
+.entypo-popup:before, .entypo-popup-append:after { content: ""; }
+
+.entypo-search:before, .entypo-search-append:after { content: "🔍"; }
+
+.entypo-flashlight:before, .entypo-flashlight-append:after { content: "🔦"; }
+
+.entypo-print:before, .entypo-print-append:after { content: ""; }
+
+.entypo-bell:before, .entypo-bell-append:after { content: "🔔"; }
+
+.entypo-link:before, .entypo-link-append:after { content: "🔗"; }
+
+.entypo-flag:before, .entypo-flag-append:after { content: "⚑"; }
+
+.entypo-cog:before, .entypo-cog-append:after { content: "⚙"; }
+
+.entypo-tools:before, .entypo-tools-append:after { content: "⚒"; }
+
+.entypo-trophy:before, .entypo-trophy-append:after { content: "🏆"; }
+
+.entypo-tag:before, .entypo-tag-append:after { content: ""; }
+
+.entypo-camera:before, .entypo-camera-append:after { content: "📷"; }
+
+.entypo-megaphone:before, .entypo-megaphone-append:after { content: "📣"; }
+
+.entypo-moon:before, .entypo-moon-append:after { content: "☽"; }
+
+.entypo-palette:before, .entypo-palette-append:after { content: "🎨"; }
+
+.entypo-leaf:before, .entypo-leaf-append:after { content: "🍂"; }
+
+.entypo-note:before, .entypo-note-append:after { content: "♪"; }
+
+.entypo-beamed-note:before, .entypo-beamed-note-append:after { content: "♫"; }
+
+.entypo-new:before, .entypo-new-append:after { content: "💥"; }
+
+.entypo-graduation-cap:before, .entypo-graduation-cap-append:after { content: "🎓"; }
+
+.entypo-book:before, .entypo-book-append:after { content: "📕"; }
+
+.entypo-newspaper:before, .entypo-newspaper-append:after { content: "📰"; }
+
+.entypo-bag:before, .entypo-bag-append:after { content: "👜"; }
+
+.entypo-airplane:before, .entypo-airplane-append:after { content: "✈"; }
+
+.entypo-lifebuoy:before, .entypo-lifebuoy-append:after { content: ""; }
+
+.entypo-eye:before, .entypo-eye-append:after { content: ""; }
+
+.entypo-clock:before, .entypo-clock-append:after { content: "🕔"; }
+
+.entypo-mic:before, .entypo-mic-append:after { content: "🎤"; }
+
+.entypo-calendar:before, .entypo-calendar-append:after { content: "📅"; }
+
+.entypo-flash:before, .entypo-flash-append:after { content: "⚡"; }
+
+.entypo-thunder-cloud:before, .entypo-thunder-cloud-append:after { content: "⛈"; }
+
+.entypo-droplet:before, .entypo-droplet-append:after { content: "💧"; }
+
+.entypo-cd:before, .entypo-cd-append:after { content: "💿"; }
+
+.entypo-briefcase:before, .entypo-briefcase-append:after { content: "💼"; }
+
+.entypo-air:before, .entypo-air-append:after { content: "💨"; }
+
+.entypo-hourglass:before, .entypo-hourglass-append:after { content: "⏳"; }
+
+.entypo-gauge:before, .entypo-gauge-append:after { content: "🛇"; }
+
+.entypo-language:before, .entypo-language-append:after { content: "🎔"; }
+
+.entypo-network:before, .entypo-network-append:after { content: ""; }
+
+.entypo-key:before, .entypo-key-append:after { content: "🔑"; }
+
+.entypo-battery:before, .entypo-battery-append:after { content: "🔋"; }
+
+.entypo-bucket:before, .entypo-bucket-append:after { content: "📾"; }
+
+.entypo-magnet:before, .entypo-magnet-append:after { content: ""; }
+
+.entypo-drive:before, .entypo-drive-append:after { content: "📽"; }
+
+.entypo-cup:before, .entypo-cup-append:after { content: "☕"; }
+
+.entypo-rocket:before, .entypo-rocket-append:after { content: "🚀"; }
+
+.entypo-brush:before, .entypo-brush-append:after { content: ""; }
+
+.entypo-suitcase:before, .entypo-suitcase-append:after { content: "🛆"; }
+
+.entypo-traffic-cone:before, .entypo-traffic-cone-append:after { content: "🛈"; }
+
+.entypo-globe:before, .entypo-globe-append:after { content: "🌎"; }
+
+.entypo-keyboard:before, .entypo-keyboard-append:after { content: "⌨"; }
+
+.entypo-browser:before, .entypo-browser-append:after { content: ""; }
+
+.entypo-publish:before, .entypo-publish-append:after { content: ""; }
+
+.entypo-progress-3:before, .entypo-progress-3-append:after { content: ""; }
+
+.entypo-progress-2:before, .entypo-progress-2-append:after { content: ""; }
+
+.entypo-progress-1:before, .entypo-progress-1-append:after { content: ""; }
+
+.entypo-progress-0:before, .entypo-progress-0-append:after { content: ""; }
+
+.entypo-light-down:before, .entypo-light-down-append:after { content: "🔅"; }
+
+.entypo-light-up:before, .entypo-light-up-append:after { content: "🔆"; }
+
+.entypo-adjust:before, .entypo-adjust-append:after { content: "◑"; }
+
+.entypo-code:before, .entypo-code-append:after { content: ""; }
+
+.entypo-monitor:before, .entypo-monitor-append:after { content: "💻"; }
+
+.entypo-infinity:before, .entypo-infinity-append:after { content: "∞"; }
+
+.entypo-light-bulb:before, .entypo-light-bulb-append:after { content: "💡"; }
+
+.entypo-credit-card:before, .entypo-credit-card-append:after { content: "💳"; }
+
+.entypo-database:before, .entypo-database-append:after { content: "📸"; }
+
+.entypo-voicemail:before, .entypo-voicemail-append:after { content: "✇"; }
+
+.entypo-clipboard:before, .entypo-clipboard-append:after { content: "📋"; }
+
+.entypo-cart:before, .entypo-cart-append:after { content: ""; }
+
+.entypo-box:before, .entypo-box-append:after { content: "📦"; }
+
+.entypo-ticket:before, .entypo-ticket-append:after { content: "🎫"; }
+
+.entypo-rss:before, .entypo-rss-append:after { content: ""; }
+
+.entypo-signal:before, .entypo-signal-append:after { content: "📶"; }
+
+.entypo-thermometer:before, .entypo-thermometer-append:after { content: "📿"; }
+
+.entypo-water:before, .entypo-water-append:after { content: "💦"; }
+
+.entypo-sweden:before, .entypo-sweden-append:after { content: ""; }
+
+.entypo-line-graph:before, .entypo-line-graph-append:after { content: "📈"; }
+
+.entypo-pie-chart:before, .entypo-pie-chart-append:after { content: "◴"; }
+
+.entypo-bar-graph:before, .entypo-bar-graph-append:after { content: "📊"; }
+
+.entypo-area-graph:before, .entypo-area-graph-append:after { content: "🔾"; }
+
+.entypo-lock:before, .entypo-lock-append:after { content: "🔒"; }
+
+.entypo-lock-open:before, .entypo-lock-open-append:after { content: "🔓"; }
+
+.entypo-logout:before, .entypo-logout-append:after { content: ""; }
+
+.entypo-login:before, .entypo-login-append:after { content: ""; }
+
+.entypo-check:before, .entypo-check-append:after { content: "✓"; }
+
+.entypo-cross:before, .entypo-cross-append:after { content: "❌"; }
+
+.entypo-squared-minus:before, .entypo-squared-minus-append:after { content: "⊟"; }
+
+.entypo-squared-plus:before, .entypo-squared-plus-append:after { content: "⊞"; }
+
+.entypo-squared-cross:before, .entypo-squared-cross-append:after { content: "❎"; }
+
+.entypo-circled-minus:before, .entypo-circled-minus-append:after { content: "⊖"; }
+
+.entypo-circled-plus:before, .entypo-circled-plus-append:after { content: "⊕"; }
+
+.entypo-circled-cross:before, .entypo-circled-cross-append:after { content: "✖"; }
+
+.entypo-minus:before, .entypo-minus-append:after { content: "➖"; }
+
+.entypo-plus:before, .entypo-plus-append:after { content: "➕"; }
+
+.entypo-erase:before, .entypo-erase-append:after { content: "⌫"; }
+
+.entypo-block:before, .entypo-block-append:after { content: "🚫"; }
+
+.entypo-info:before, .entypo-info-append:after { content: "ℹ"; }
+
+.entypo-circled-info:before, .entypo-circled-info-append:after { content: ""; }
+
+.entypo-help:before, .entypo-help-append:after { content: " ❓ "; }
+
+.entypo-circled-help:before, .entypo-circled-help-append:after { content: ""; }
+
+.entypo-warning:before, .entypo-warning-append:after { content: "⚠"; }
+
+.entypo-cycle:before, .entypo-cycle-append:after { content: "🔄"; }
+
+.entypo-cw:before, .entypo-cw-append:after { content: "⟳"; }
+
+.entypo-ccw:before, .entypo-ccw-append:after { content: "⟲"; }
+
+.entypo-shuffle:before, .entypo-shuffle-append:after { content: "🔀"; }
+
+.entypo-back:before, .entypo-back-append:after { content: "🔙"; }
+
+.entypo-level-down:before, .entypo-level-down-append:after { content: "↳"; }
+
+.entypo-retweet:before, .entypo-retweet-append:after { content: ""; }
+
+.entypo-loop:before, .entypo-loop-append:after { content: "🔁"; }
+
+.entypo-back-in-time:before, .entypo-back-in-time-append:after { content: ""; }
+
+.entypo-level-up:before, .entypo-level-up-append:after { content: "↰"; }
+
+.entypo-switch:before, .entypo-switch-append:after { content: "⇆"; }
+
+.entypo-numbered-list:before, .entypo-numbered-list-append:after { content: ""; }
+
+.entypo-add-to-list:before, .entypo-add-to-list-append:after { content: ""; }
+
+.entypo-layout:before, .entypo-layout-append:after { content: "⚏"; }
+
+.entypo-list:before, .entypo-list-append:after { content: "☰"; }
+
+.entypo-text-doc:before, .entypo-text-doc-append:after { content: "📄"; }
+
+.entypo-text-doc-inverted:before, .entypo-text-doc-inverted-append:after { content: ""; }
+
+.entypo-doc:before, .entypo-doc-append:after { content: ""; }
+
+.entypo-docs:before, .entypo-docs-append:after { content: ""; }
+
+.entypo-landscape-doc:before, .entypo-landscape-doc-append:after { content: ""; }
+
+.entypo-picture:before, .entypo-picture-append:after { content: "🌄"; }
+
+.entypo-video:before, .entypo-video-append:after { content: "🎬"; }
+
+.entypo-music:before, .entypo-music-append:after { content: "🎵"; }
+
+.entypo-folder:before, .entypo-folder-append:after { content: "📁"; }
+
+.entypo-archive:before, .entypo-archive-append:after { content: ""; }
+
+.entypo-trash:before, .entypo-trash-append:after { content: ""; }
+
+.entypo-upload:before, .entypo-upload-append:after { content: "📤"; }
+
+.entypo-download:before, .entypo-download-append:after { content: "📥"; }
+
+.entypo-save:before, .entypo-save-append:after { content: "💾"; }
+
+.entypo-install:before, .entypo-install-append:after { content: ""; }
+
+.entypo-cloud:before, .entypo-cloud-append:after { content: "☁"; }
+
+.entypo-upload-cloud:before, .entypo-upload-cloud-append:after { content: ""; }
+
+.entypo-bookmark:before, .entypo-bookmark-append:after { content: "🔖"; }
+
+.entypo-bookmarks:before, .entypo-bookmarks-append:after { content: "📑"; }
+
+.entypo-open-book:before, .entypo-open-book-append:after { content: "📖"; }
+
+.entypo-play:before, .entypo-play-append:after { content: "▶"; }
+
+.entypo-paus:before, .entypo-paus-append:after { content: "‖"; }
+
+.entypo-record:before, .entypo-record-append:after { content: "●"; }
+
+.entypo-stop:before, .entypo-stop-append:after { content: "■"; }
+
+.entypo-ff:before, .entypo-ff-append:after { content: "⏩"; }
+
+.entypo-fb:before, .entypo-fb-append:after { content: "⏪"; }
+
+.entypo-to-start:before, .entypo-to-start-append:after { content: "⏮"; }
+
+.entypo-to-end:before, .entypo-to-end-append:after { content: "⏭"; }
+
+.entypo-resize-full:before, .entypo-resize-full-append:after { content: ""; }
+
+.entypo-resize-small:before, .entypo-resize-small-append:after { content: ""; }
+
+.entypo-volume:before, .entypo-volume-append:after { content: "⏷"; }
+
+.entypo-sound:before, .entypo-sound-append:after { content: "🔊"; }
+
+.entypo-mute:before, .entypo-mute-append:after { content: "🔇"; }
+
+.entypo-flow-cascade:before, .entypo-flow-cascade-append:after { content: "🕨"; }
+
+.entypo-flow-branch:before, .entypo-flow-branch-append:after { content: "🕩"; }
+
+.entypo-flow-tree:before, .entypo-flow-tree-append:after { content: "🕪"; }
+
+.entypo-flow-line:before, .entypo-flow-line-append:after { content: "🕫"; }
+
+.entypo-flow-parallel:before, .entypo-flow-parallel-append:after { content: "🕬"; }
+
+.entypo-left-bold:before, .entypo-left-bold-append:after { content: ""; }
+
+.entypo-down-bold:before, .entypo-down-bold-append:after { content: ""; }
+
+.entypo-up-bold:before, .entypo-up-bold-append:after { content: ""; }
+
+.entypo-right-bold:before, .entypo-right-bold-append:after { content: ""; }
+
+.entypo-left:before, .entypo-left-append:after { content: "⬅"; }
+
+.entypo-down:before, .entypo-down-append:after { content: "⬇"; }
+
+.entypo-up:before, .entypo-up-append:after { content: "⬆"; }
+
+.entypo-right:before, .entypo-right-append:after { content: "➡"; }
+
+.entypo-circled-left:before, .entypo-circled-left-append:after { content: ""; }
+
+.entypo-circled-down:before, .entypo-circled-down-append:after { content: ""; }
+
+.entypo-circled-up:before, .entypo-circled-up-append:after { content: ""; }
+
+.entypo-circled-right:before, .entypo-circled-right-append:after { content: ""; }
+
+.entypo-triangle-left:before, .entypo-triangle-left-append:after { content: "◂"; }
+
+.entypo-triangle-down:before, .entypo-triangle-down-append:after { content: "▾"; }
+
+.entypo-triangle-up:before, .entypo-triangle-up-append:after { content: "▴"; }
+
+.entypo-triangle-right:before, .entypo-triangle-right-append:after { content: "▸"; }
+
+.entypo-chevron-left:before, .entypo-chevron-left-append:after { content: ""; }
+
+.entypo-chevron-down:before, .entypo-chevron-down-append:after { content: ""; }
+
+.entypo-chevron-up:before, .entypo-chevron-up-append:after { content: ""; }
+
+.entypo-chevron-right:before, .entypo-chevron-right-append:after { content: ""; }
+
+.entypo-chevron-small-left:before, .entypo-chevron-small-left-append:after { content: ""; }
+
+.entypo-chevron-small-down:before, .entypo-chevron-small-down-append:after { content: ""; }
+
+.entypo-chevron-small-up:before, .entypo-chevron-small-up-append:after { content: ""; }
+
+.entypo-chevron-small-right:before, .entypo-chevron-small-right-append:after { content: ""; }
+
+.entypo-chevron-thin-left:before, .entypo-chevron-thin-left-append:after { content: ""; }
+
+.entypo-chevron-thin-down:before, .entypo-chevron-thin-down-append:after { content: ""; }
+
+.entypo-chevron-thin-up:before, .entypo-chevron-thin-up-append:after { content: ""; }
+
+.entypo-chevron-thin-right:before, .entypo-chevron-thin-right-append:after { content: ""; }
+
+.entypo-left-thin:before, .entypo-left-thin-append:after { content: "←"; }
+
+.entypo-down-thin:before, .entypo-down-thin-append:after { content: "↓"; }
+
+.entypo-up-thin:before, .entypo-up-thin-append:after { content: "↑"; }
+
+.entypo-right-thin:before, .entypo-right-thin-append:after { content: "→"; }
+
+.entypo-arrow-combo:before, .entypo-arrow-combo-append:after { content: ""; }
+
+.entypo-three-dots:before, .entypo-three-dots-append:after { content: "⏶"; }
+
+.entypo-two-dots:before, .entypo-two-dots-append:after { content: "⏵"; }
+
+.entypo-dot:before, .entypo-dot-append:after { content: "⏴"; }
+
+.entypo-cc:before, .entypo-cc-append:after { content: "🕅"; }
+
+.entypo-cc-by:before, .entypo-cc-by-append:after { content: "🕆"; }
+
+.entypo-cc-nc:before, .entypo-cc-nc-append:after { content: "🕇"; }
+
+.entypo-cc-nc-eu:before, .entypo-cc-nc-eu-append:after { content: "🕈"; }
+
+.entypo-cc-nc-jp:before, .entypo-cc-nc-jp-append:after { content: "🕉"; }
+
+.entypo-cc-sa:before, .entypo-cc-sa-append:after { content: "🕊"; }
+
+.entypo-cc-nd:before, .entypo-cc-nd-append:after { content: "🕋"; }
+
+.entypo-cc-pd:before, .entypo-cc-pd-append:after { content: "🕌"; }
+
+.entypo-cc-zero:before, .entypo-cc-zero-append:after { content: "🕍"; }
+
+.entypo-cc-share:before, .entypo-cc-share-append:after { content: "🕎"; }
+
+.entypo-cc-remix:before, .entypo-cc-remix-append:after { content: "🕏"; }
+
+.entypo-db-logo:before, .entypo-db-logo-append:after { content: "🗹"; }
+
+.entypo-db-shape:before, .entypo-db-shape-append:after { content: "🗺"; }
