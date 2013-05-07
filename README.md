@@ -2,6 +2,10 @@
 
 Simple helpers for common icon font sets.
 
+## Fonts
+
+Currently just Entypo...
+
 ## History
 
 I was using the [font-icons](https://github.com/krisbulman/font-icons) Compass plugin, but I was unhappy about three things:
