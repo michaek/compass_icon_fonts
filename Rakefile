@@ -34,6 +34,6 @@ task :pages do
   system 'cd %s/gh-pages/' % base
   system 'git add .'
   system 'git commit -m "Updating GitHub pages."'
-  system 'git push origin gh-pages'
+  system 'git push origin:gh-pages'
   system 'cd %s' % base
 end
