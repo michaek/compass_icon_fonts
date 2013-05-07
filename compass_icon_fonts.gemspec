@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary       = "Simple helpers for common icon font sets."
   s.description   = "Simple helpers for common icon font sets."
 
-  s.files         = `git ls-files app lib`.split("\n")
+  s.files         = `git ls-files app lib stylesheets`.split("\n")
   s.platform      = Gem::Platform::RUBY
   s.require_paths = ['lib']
   s.rubyforge_project = '[none]'
