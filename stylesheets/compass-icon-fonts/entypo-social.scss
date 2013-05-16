@@ -1,7 +1,7 @@
 //
 // EntypoSocial
 //
-//   generated 05/07/13 12:56:45 PM
+//   generated 05/15/13 03:35:58 PM
 
 @import "compass/css3/font-face";
 @import "compass-icon-fonts";
@@ -14,50 +14,51 @@ $compass-icon-fonts-files: font-files("entypo-social.eot", "entypo-social.woff",
 
 $compass-icon-fonts-size: 1.25em;
 
-$compass-icon-fonts-characters:
-    "github", "",
-    "c-github", "",
-    "flickr", "",
-    "c-flickr", "",
-    "vimeo", "",
-    "c-vimeo", "",
-    "twitter", "",
-    "c-twitter", "",
-    "facebook", "",
-    "c-facebook", "",
-    "s-facebook", "",
-    "google+", "",
-    "c-google+", "",
-    "pinterest", "",
-    "c-pinterest", "",
-    "tumblr", "",
-    "c-tumblr", "",
-    "linkedin", "",
-    "c-linkedin", "",
-    "dribbble", "",
-    "c-dribbble", "",
-    "stumbleupon", "",
-    "c-stumbleupon", "",
-    "lastfm", "",
-    "c-lastfm", "",
-    "rdio", "",
-    "c-rdio", "",
-    "spotify", "",
-    "c-spotify", "",
-    "qq", "",
-    "instagram", "",
-    "dropbox", "",
-    "evernote", "",
-    "flattr", "",
-    "skype", "",
-    "c-skype", "",
-    "renren", "",
-    "sina-weibo", "",
-    "paypal", "",
-    "picasa", "",
-    "soundcloud", "",
-    "mixi", "",
-    "behance", "",
-    "google-circles", "",
-    "vk", "",
-    "smashing", "";
+$compass-icon-fonts-keywords:   "github", "c-github", "flickr", "c-flickr", "vimeo", "c-vimeo", "twitter", "c-twitter", "facebook", "c-facebook", "s-facebook", "google+", "c-google+", "pinterest", "c-pinterest", "tumblr", "c-tumblr", "linkedin", "c-linkedin", "dribbble", "c-dribbble", "stumbleupon", "c-stumbleupon", "lastfm", "c-lastfm", "rdio", "c-rdio", "spotify", "c-spotify", "qq", "instagram", "dropbox", "evernote", "flattr", "skype", "c-skype", "renren", "sina-weibo", "paypal", "picasa", "soundcloud", "mixi", "behance", "google-circles", "vk", "smashing";
+
+%entypo-social-github-character { content: ""; }
+%entypo-social-c-github-character { content: ""; }
+%entypo-social-flickr-character { content: ""; }
+%entypo-social-c-flickr-character { content: ""; }
+%entypo-social-vimeo-character { content: ""; }
+%entypo-social-c-vimeo-character { content: ""; }
+%entypo-social-twitter-character { content: ""; }
+%entypo-social-c-twitter-character { content: ""; }
+%entypo-social-facebook-character { content: ""; }
+%entypo-social-c-facebook-character { content: ""; }
+%entypo-social-s-facebook-character { content: ""; }
+%entypo-social-google+-character { content: ""; }
+%entypo-social-c-google+-character { content: ""; }
+%entypo-social-pinterest-character { content: ""; }
+%entypo-social-c-pinterest-character { content: ""; }
+%entypo-social-tumblr-character { content: ""; }
+%entypo-social-c-tumblr-character { content: ""; }
+%entypo-social-linkedin-character { content: ""; }
+%entypo-social-c-linkedin-character { content: ""; }
+%entypo-social-dribbble-character { content: ""; }
+%entypo-social-c-dribbble-character { content: ""; }
+%entypo-social-stumbleupon-character { content: ""; }
+%entypo-social-c-stumbleupon-character { content: ""; }
+%entypo-social-lastfm-character { content: ""; }
+%entypo-social-c-lastfm-character { content: ""; }
+%entypo-social-rdio-character { content: ""; }
+%entypo-social-c-rdio-character { content: ""; }
+%entypo-social-spotify-character { content: ""; }
+%entypo-social-c-spotify-character { content: ""; }
+%entypo-social-qq-character { content: ""; }
+%entypo-social-instagram-character { content: ""; }
+%entypo-social-dropbox-character { content: ""; }
+%entypo-social-evernote-character { content: ""; }
+%entypo-social-flattr-character { content: ""; }
+%entypo-social-skype-character { content: ""; }
+%entypo-social-c-skype-character { content: ""; }
+%entypo-social-renren-character { content: ""; }
+%entypo-social-sina-weibo-character { content: ""; }
+%entypo-social-paypal-character { content: ""; }
+%entypo-social-picasa-character { content: ""; }
+%entypo-social-soundcloud-character { content: ""; }
+%entypo-social-mixi-character { content: ""; }
+%entypo-social-behance-character { content: ""; }
+%entypo-social-google-circles-character { content: ""; }
+%entypo-social-vk-character { content: ""; }
+%entypo-social-smashing-character { content: ""; }

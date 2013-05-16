@@ -14,5 +14,6 @@ $compass-icon-fonts-files: font-files("<%= files.join('", "') %>");
 
 $compass-icon-fonts-size: <%= size %>;
 
-$compass-icon-fonts-characters:<% last = pairs.values.last %><% pairs.each do |classname, character| %>
-    "<%= classname %>", "<%= character %>"<%= character == last ? ';' : ',' %><% end %>
+$compass-icon-fonts-keywords:   <%= pairs.keys.map{|k| '"%s"' % k}.join(', ') %>;
+<% pairs.each do |classname, character| %>
+%<%= variable %>-<%= classname %>-character { content: "<%= character %>"; }<% end %>

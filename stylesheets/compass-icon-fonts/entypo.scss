@@ -1,7 +1,7 @@
 //
 // Entypo
 //
-//   generated 05/07/13 12:56:45 PM
+//   generated 05/15/13 03:35:58 PM
 
 @import "compass/css3/font-face";
 @import "compass-icon-fonts";
@@ -14,242 +14,243 @@ $compass-icon-fonts-files: font-files("entypo.eot", "entypo.woff", "entypo.ttf",
 
 $compass-icon-fonts-size: 1.25em;
 
-$compass-icon-fonts-characters:
-    "phone", "📞",
-    "mobile", "📱",
-    "mouse", "",
-    "address", "",
-    "mail", "✉",
-    "paper-plane", "🔿",
-    "pencil", "✎",
-    "feather", "✒",
-    "attach", "📎",
-    "inbox", "",
-    "reply", "",
-    "reply-all", "",
-    "forward", "➦",
-    "user", "👤",
-    "users", "👥",
-    "add-user", "",
-    "vcard", "",
-    "export", "",
-    "location", "",
-    "map", "",
-    "compass", "➢",
-    "direction", "",
-    "hair-cross", "🎯",
-    "share", "",
-    "shareable", "",
-    "heart", "♥",
-    "heart-empty", "♡",
-    "star", "★",
-    "star-empty", "☆",
-    "thumbs-up", "👍",
-    "thumbs-down", "👎",
-    "chat", "",
-    "comment", "",
-    "quote", "❞",
-    "home", "⌂",
-    "popup", "",
-    "search", "🔍",
-    "flashlight", "🔦",
-    "print", "",
-    "bell", "🔔",
-    "link", "🔗",
-    "flag", "⚑",
-    "cog", "⚙",
-    "tools", "⚒",
-    "trophy", "🏆",
-    "tag", "",
-    "camera", "📷",
-    "megaphone", "📣",
-    "moon", "☽",
-    "palette", "🎨",
-    "leaf", "🍂",
-    "note", "♪",
-    "beamed-note", "♫",
-    "new", "💥",
-    "graduation-cap", "🎓",
-    "book", "📕",
-    "newspaper", "📰",
-    "bag", "👜",
-    "airplane", "✈",
-    "lifebuoy", "",
-    "eye", "",
-    "clock", "🕔",
-    "mic", "🎤",
-    "calendar", "📅",
-    "flash", "⚡",
-    "thunder-cloud", "⛈",
-    "droplet", "💧",
-    "cd", "💿",
-    "briefcase", "💼",
-    "air", "💨",
-    "hourglass", "⏳",
-    "gauge", "🛇",
-    "language", "🎔",
-    "network", "",
-    "key", "🔑",
-    "battery", "🔋",
-    "bucket", "📾",
-    "magnet", "",
-    "drive", "📽",
-    "cup", "☕",
-    "rocket", "🚀",
-    "brush", "",
-    "suitcase", "🛆",
-    "traffic-cone", "🛈",
-    "globe", "🌎",
-    "keyboard", "⌨",
-    "browser", "",
-    "publish", "",
-    "progress-3", "",
-    "progress-2", "",
-    "progress-1", "",
-    "progress-0", "",
-    "light-down", "🔅",
-    "light-up", "🔆",
-    "adjust", "◑",
-    "code", "",
-    "monitor", "💻",
-    "infinity", "∞",
-    "light-bulb", "💡",
-    "credit-card", "💳",
-    "database", "📸",
-    "voicemail", "✇",
-    "clipboard", "📋",
-    "cart", "",
-    "box", "📦",
-    "ticket", "🎫",
-    "rss", "",
-    "signal", "📶",
-    "thermometer", "📿",
-    "water", "💦",
-    "sweden", "",
-    "line-graph", "📈",
-    "pie-chart", "◴",
-    "bar-graph", "📊",
-    "area-graph", "🔾",
-    "lock", "🔒",
-    "lock-open", "🔓",
-    "logout", "",
-    "login", "",
-    "check", "✓",
-    "cross", "❌",
-    "squared-minus", "⊟",
-    "squared-plus", "⊞",
-    "squared-cross", "❎",
-    "circled-minus", "⊖",
-    "circled-plus", "⊕",
-    "circled-cross", "✖",
-    "minus", "➖",
-    "plus", "➕",
-    "erase", "⌫",
-    "block", "🚫",
-    "info", "ℹ",
-    "circled-info", "",
-    "help", " ❓ ",
-    "circled-help", "",
-    "warning", "⚠",
-    "cycle", "🔄",
-    "cw", "⟳",
-    "ccw", "⟲",
-    "shuffle", "🔀",
-    "back", "🔙",
-    "level-down", "↳",
-    "retweet", "",
-    "loop", "🔁",
-    "back-in-time", "",
-    "level-up", "↰",
-    "switch", "⇆",
-    "numbered-list", "",
-    "add-to-list", "",
-    "layout", "⚏",
-    "list", "☰",
-    "text-doc", "📄",
-    "text-doc-inverted", "",
-    "doc", "",
-    "docs", "",
-    "landscape-doc", "",
-    "picture", "🌄",
-    "video", "🎬",
-    "music", "🎵",
-    "folder", "📁",
-    "archive", "",
-    "trash", "",
-    "upload", "📤",
-    "download", "📥",
-    "save", "💾",
-    "install", "",
-    "cloud", "☁",
-    "upload-cloud", "",
-    "bookmark", "🔖",
-    "bookmarks", "📑",
-    "open-book", "📖",
-    "play", "▶",
-    "paus", "‖",
-    "record", "●",
-    "stop", "■",
-    "ff", "⏩",
-    "fb", "⏪",
-    "to-start", "⏮",
-    "to-end", "⏭",
-    "resize-full", "",
-    "resize-small", "",
-    "volume", "⏷",
-    "sound", "🔊",
-    "mute", "🔇",
-    "flow-cascade", "🕨",
-    "flow-branch", "🕩",
-    "flow-tree", "🕪",
-    "flow-line", "🕫",
-    "flow-parallel", "🕬",
-    "left-bold", "",
-    "down-bold", "",
-    "up-bold", "",
-    "right-bold", "",
-    "left", "⬅",
-    "down", "⬇",
-    "up", "⬆",
-    "right", "➡",
-    "circled-left", "",
-    "circled-down", "",
-    "circled-up", "",
-    "circled-right", "",
-    "triangle-left", "◂",
-    "triangle-down", "▾",
-    "triangle-up", "▴",
-    "triangle-right", "▸",
-    "chevron-left", "",
-    "chevron-down", "",
-    "chevron-up", "",
-    "chevron-right", "",
-    "chevron-small-left", "",
-    "chevron-small-down", "",
-    "chevron-small-up", "",
-    "chevron-small-right", "",
-    "chevron-thin-left", "",
-    "chevron-thin-down", "",
-    "chevron-thin-up", "",
-    "chevron-thin-right", "",
-    "left-thin", "←",
-    "down-thin", "↓",
-    "up-thin", "↑",
-    "right-thin", "→",
-    "arrow-combo", "",
-    "three-dots", "⏶",
-    "two-dots", "⏵",
-    "dot", "⏴",
-    "cc", "🕅",
-    "cc-by", "🕆",
-    "cc-nc", "🕇",
-    "cc-nc-eu", "🕈",
-    "cc-nc-jp", "🕉",
-    "cc-sa", "🕊",
-    "cc-nd", "🕋",
-    "cc-pd", "🕌",
-    "cc-zero", "🕍",
-    "cc-share", "🕎",
-    "cc-remix", "🕏",
-    "db-logo", "🗹",
-    "db-shape", "🗺";
+$compass-icon-fonts-keywords:   "phone", "mobile", "mouse", "address", "mail", "paper-plane", "pencil", "feather", "attach", "inbox", "reply", "reply-all", "forward", "user", "users", "add-user", "vcard", "export", "location", "map", "compass", "direction", "hair-cross", "share", "shareable", "heart", "heart-empty", "star", "star-empty", "thumbs-up", "thumbs-down", "chat", "comment", "quote", "home", "popup", "search", "flashlight", "print", "bell", "link", "flag", "cog", "tools", "trophy", "tag", "camera", "megaphone", "moon", "palette", "leaf", "note", "beamed-note", "new", "graduation-cap", "book", "newspaper", "bag", "airplane", "lifebuoy", "eye", "clock", "mic", "calendar", "flash", "thunder-cloud", "droplet", "cd", "briefcase", "air", "hourglass", "gauge", "language", "network", "key", "battery", "bucket", "magnet", "drive", "cup", "rocket", "brush", "suitcase", "traffic-cone", "globe", "keyboard", "browser", "publish", "progress-3", "progress-2", "progress-1", "progress-0", "light-down", "light-up", "adjust", "code", "monitor", "infinity", "light-bulb", "credit-card", "database", "voicemail", "clipboard", "cart", "box", "ticket", "rss", "signal", "thermometer", "water", "sweden", "line-graph", "pie-chart", "bar-graph", "area-graph", "lock", "lock-open", "logout", "login", "check", "cross", "squared-minus", "squared-plus", "squared-cross", "circled-minus", "circled-plus", "circled-cross", "minus", "plus", "erase", "block", "info", "circled-info", "help", "circled-help", "warning", "cycle", "cw", "ccw", "shuffle", "back", "level-down", "retweet", "loop", "back-in-time", "level-up", "switch", "numbered-list", "add-to-list", "layout", "list", "text-doc", "text-doc-inverted", "doc", "docs", "landscape-doc", "picture", "video", "music", "folder", "archive", "trash", "upload", "download", "save", "install", "cloud", "upload-cloud", "bookmark", "bookmarks", "open-book", "play", "paus", "record", "stop", "ff", "fb", "to-start", "to-end", "resize-full", "resize-small", "volume", "sound", "mute", "flow-cascade", "flow-branch", "flow-tree", "flow-line", "flow-parallel", "left-bold", "down-bold", "up-bold", "right-bold", "left", "down", "up", "right", "circled-left", "circled-down", "circled-up", "circled-right", "triangle-left", "triangle-down", "triangle-up", "triangle-right", "chevron-left", "chevron-down", "chevron-up", "chevron-right", "chevron-small-left", "chevron-small-down", "chevron-small-up", "chevron-small-right", "chevron-thin-left", "chevron-thin-down", "chevron-thin-up", "chevron-thin-right", "left-thin", "down-thin", "up-thin", "right-thin", "arrow-combo", "three-dots", "two-dots", "dot", "cc", "cc-by", "cc-nc", "cc-nc-eu", "cc-nc-jp", "cc-sa", "cc-nd", "cc-pd", "cc-zero", "cc-share", "cc-remix", "db-logo", "db-shape";
+
+%entypo-phone-character { content: "📞"; }
+%entypo-mobile-character { content: "📱"; }
+%entypo-mouse-character { content: ""; }
+%entypo-address-character { content: ""; }
+%entypo-mail-character { content: "✉"; }
+%entypo-paper-plane-character { content: "🔿"; }
+%entypo-pencil-character { content: "✎"; }
+%entypo-feather-character { content: "✒"; }
+%entypo-attach-character { content: "📎"; }
+%entypo-inbox-character { content: ""; }
+%entypo-reply-character { content: ""; }
+%entypo-reply-all-character { content: ""; }
+%entypo-forward-character { content: "➦"; }
+%entypo-user-character { content: "👤"; }
+%entypo-users-character { content: "👥"; }
+%entypo-add-user-character { content: ""; }
+%entypo-vcard-character { content: ""; }
+%entypo-export-character { content: ""; }
+%entypo-location-character { content: ""; }
+%entypo-map-character { content: ""; }
+%entypo-compass-character { content: "➢"; }
+%entypo-direction-character { content: ""; }
+%entypo-hair-cross-character { content: "🎯"; }
+%entypo-share-character { content: ""; }
+%entypo-shareable-character { content: ""; }
+%entypo-heart-character { content: "♥"; }
+%entypo-heart-empty-character { content: "♡"; }
+%entypo-star-character { content: "★"; }
+%entypo-star-empty-character { content: "☆"; }
+%entypo-thumbs-up-character { content: "👍"; }
+%entypo-thumbs-down-character { content: "👎"; }
+%entypo-chat-character { content: ""; }
+%entypo-comment-character { content: ""; }
+%entypo-quote-character { content: "❞"; }
+%entypo-home-character { content: "⌂"; }
+%entypo-popup-character { content: ""; }
+%entypo-search-character { content: "🔍"; }
+%entypo-flashlight-character { content: "🔦"; }
+%entypo-print-character { content: ""; }
+%entypo-bell-character { content: "🔔"; }
+%entypo-link-character { content: "🔗"; }
+%entypo-flag-character { content: "⚑"; }
+%entypo-cog-character { content: "⚙"; }
+%entypo-tools-character { content: "⚒"; }
+%entypo-trophy-character { content: "🏆"; }
+%entypo-tag-character { content: ""; }
+%entypo-camera-character { content: "📷"; }
+%entypo-megaphone-character { content: "📣"; }
+%entypo-moon-character { content: "☽"; }
+%entypo-palette-character { content: "🎨"; }
+%entypo-leaf-character { content: "🍂"; }
+%entypo-note-character { content: "♪"; }
+%entypo-beamed-note-character { content: "♫"; }
+%entypo-new-character { content: "💥"; }
+%entypo-graduation-cap-character { content: "🎓"; }
+%entypo-book-character { content: "📕"; }
+%entypo-newspaper-character { content: "📰"; }
+%entypo-bag-character { content: "👜"; }
+%entypo-airplane-character { content: "✈"; }
+%entypo-lifebuoy-character { content: ""; }
+%entypo-eye-character { content: ""; }
+%entypo-clock-character { content: "🕔"; }
+%entypo-mic-character { content: "🎤"; }
+%entypo-calendar-character { content: "📅"; }
+%entypo-flash-character { content: "⚡"; }
+%entypo-thunder-cloud-character { content: "⛈"; }
+%entypo-droplet-character { content: "💧"; }
+%entypo-cd-character { content: "💿"; }
+%entypo-briefcase-character { content: "💼"; }
+%entypo-air-character { content: "💨"; }
+%entypo-hourglass-character { content: "⏳"; }
+%entypo-gauge-character { content: "🛇"; }
+%entypo-language-character { content: "🎔"; }
+%entypo-network-character { content: ""; }
+%entypo-key-character { content: "🔑"; }
+%entypo-battery-character { content: "🔋"; }
+%entypo-bucket-character { content: "📾"; }
+%entypo-magnet-character { content: ""; }
+%entypo-drive-character { content: "📽"; }
+%entypo-cup-character { content: "☕"; }
+%entypo-rocket-character { content: "🚀"; }
+%entypo-brush-character { content: ""; }
+%entypo-suitcase-character { content: "🛆"; }
+%entypo-traffic-cone-character { content: "🛈"; }
+%entypo-globe-character { content: "🌎"; }
+%entypo-keyboard-character { content: "⌨"; }
+%entypo-browser-character { content: ""; }
+%entypo-publish-character { content: ""; }
+%entypo-progress-3-character { content: ""; }
+%entypo-progress-2-character { content: ""; }
+%entypo-progress-1-character { content: ""; }
+%entypo-progress-0-character { content: ""; }
+%entypo-light-down-character { content: "🔅"; }
+%entypo-light-up-character { content: "🔆"; }
+%entypo-adjust-character { content: "◑"; }
+%entypo-code-character { content: ""; }
+%entypo-monitor-character { content: "💻"; }
+%entypo-infinity-character { content: "∞"; }
+%entypo-light-bulb-character { content: "💡"; }
+%entypo-credit-card-character { content: "💳"; }
+%entypo-database-character { content: "📸"; }
+%entypo-voicemail-character { content: "✇"; }
+%entypo-clipboard-character { content: "📋"; }
+%entypo-cart-character { content: ""; }
+%entypo-box-character { content: "📦"; }
+%entypo-ticket-character { content: "🎫"; }
+%entypo-rss-character { content: ""; }
+%entypo-signal-character { content: "📶"; }
+%entypo-thermometer-character { content: "📿"; }
+%entypo-water-character { content: "💦"; }
+%entypo-sweden-character { content: ""; }
+%entypo-line-graph-character { content: "📈"; }
+%entypo-pie-chart-character { content: "◴"; }
+%entypo-bar-graph-character { content: "📊"; }
+%entypo-area-graph-character { content: "🔾"; }
+%entypo-lock-character { content: "🔒"; }
+%entypo-lock-open-character { content: "🔓"; }
+%entypo-logout-character { content: ""; }
+%entypo-login-character { content: ""; }
+%entypo-check-character { content: "✓"; }
+%entypo-cross-character { content: "❌"; }
+%entypo-squared-minus-character { content: "⊟"; }
+%entypo-squared-plus-character { content: "⊞"; }
+%entypo-squared-cross-character { content: "❎"; }
+%entypo-circled-minus-character { content: "⊖"; }
+%entypo-circled-plus-character { content: "⊕"; }
+%entypo-circled-cross-character { content: "✖"; }
+%entypo-minus-character { content: "➖"; }
+%entypo-plus-character { content: "➕"; }
+%entypo-erase-character { content: "⌫"; }
+%entypo-block-character { content: "🚫"; }
+%entypo-info-character { content: "ℹ"; }
+%entypo-circled-info-character { content: ""; }
+%entypo-help-character { content: " ❓ "; }
+%entypo-circled-help-character { content: ""; }
+%entypo-warning-character { content: "⚠"; }
+%entypo-cycle-character { content: "🔄"; }
+%entypo-cw-character { content: "⟳"; }
+%entypo-ccw-character { content: "⟲"; }
+%entypo-shuffle-character { content: "🔀"; }
+%entypo-back-character { content: "🔙"; }
+%entypo-level-down-character { content: "↳"; }
+%entypo-retweet-character { content: ""; }
+%entypo-loop-character { content: "🔁"; }
+%entypo-back-in-time-character { content: ""; }
+%entypo-level-up-character { content: "↰"; }
+%entypo-switch-character { content: "⇆"; }
+%entypo-numbered-list-character { content: ""; }
+%entypo-add-to-list-character { content: ""; }
+%entypo-layout-character { content: "⚏"; }
+%entypo-list-character { content: "☰"; }
+%entypo-text-doc-character { content: "📄"; }
+%entypo-text-doc-inverted-character { content: ""; }
+%entypo-doc-character { content: ""; }
+%entypo-docs-character { content: ""; }
+%entypo-landscape-doc-character { content: ""; }
+%entypo-picture-character { content: "🌄"; }
+%entypo-video-character { content: "🎬"; }
+%entypo-music-character { content: "🎵"; }
+%entypo-folder-character { content: "📁"; }
+%entypo-archive-character { content: ""; }
+%entypo-trash-character { content: ""; }
+%entypo-upload-character { content: "📤"; }
+%entypo-download-character { content: "📥"; }
+%entypo-save-character { content: "💾"; }
+%entypo-install-character { content: ""; }
+%entypo-cloud-character { content: "☁"; }
+%entypo-upload-cloud-character { content: ""; }
+%entypo-bookmark-character { content: "🔖"; }
+%entypo-bookmarks-character { content: "📑"; }
+%entypo-open-book-character { content: "📖"; }
+%entypo-play-character { content: "▶"; }
+%entypo-paus-character { content: "‖"; }
+%entypo-record-character { content: "●"; }
+%entypo-stop-character { content: "■"; }
+%entypo-ff-character { content: "⏩"; }
+%entypo-fb-character { content: "⏪"; }
+%entypo-to-start-character { content: "⏮"; }
+%entypo-to-end-character { content: "⏭"; }
+%entypo-resize-full-character { content: ""; }
+%entypo-resize-small-character { content: ""; }
+%entypo-volume-character { content: "⏷"; }
+%entypo-sound-character { content: "🔊"; }
+%entypo-mute-character { content: "🔇"; }
+%entypo-flow-cascade-character { content: "🕨"; }
+%entypo-flow-branch-character { content: "🕩"; }
+%entypo-flow-tree-character { content: "🕪"; }
+%entypo-flow-line-character { content: "🕫"; }
+%entypo-flow-parallel-character { content: "🕬"; }
+%entypo-left-bold-character { content: ""; }
+%entypo-down-bold-character { content: ""; }
+%entypo-up-bold-character { content: ""; }
+%entypo-right-bold-character { content: ""; }
+%entypo-left-character { content: "⬅"; }
+%entypo-down-character { content: "⬇"; }
+%entypo-up-character { content: "⬆"; }
+%entypo-right-character { content: "➡"; }
+%entypo-circled-left-character { content: ""; }
+%entypo-circled-down-character { content: ""; }
+%entypo-circled-up-character { content: ""; }
+%entypo-circled-right-character { content: ""; }
+%entypo-triangle-left-character { content: "◂"; }
+%entypo-triangle-down-character { content: "▾"; }
+%entypo-triangle-up-character { content: "▴"; }
+%entypo-triangle-right-character { content: "▸"; }
+%entypo-chevron-left-character { content: ""; }
+%entypo-chevron-down-character { content: ""; }
+%entypo-chevron-up-character { content: ""; }
+%entypo-chevron-right-character { content: ""; }
+%entypo-chevron-small-left-character { content: ""; }
+%entypo-chevron-small-down-character { content: ""; }
+%entypo-chevron-small-up-character { content: ""; }
+%entypo-chevron-small-right-character { content: ""; }
+%entypo-chevron-thin-left-character { content: ""; }
+%entypo-chevron-thin-down-character { content: ""; }
+%entypo-chevron-thin-up-character { content: ""; }
+%entypo-chevron-thin-right-character { content: ""; }
+%entypo-left-thin-character { content: "←"; }
+%entypo-down-thin-character { content: "↓"; }
+%entypo-up-thin-character { content: "↑"; }
+%entypo-right-thin-character { content: "→"; }
+%entypo-arrow-combo-character { content: ""; }
+%entypo-three-dots-character { content: "⏶"; }
+%entypo-two-dots-character { content: "⏵"; }
+%entypo-dot-character { content: "⏴"; }
+%entypo-cc-character { content: "🕅"; }
+%entypo-cc-by-character { content: "🕆"; }
+%entypo-cc-nc-character { content: "🕇"; }
+%entypo-cc-nc-eu-character { content: "🕈"; }
+%entypo-cc-nc-jp-character { content: "🕉"; }
+%entypo-cc-sa-character { content: "🕊"; }
+%entypo-cc-nd-character { content: "🕋"; }
+%entypo-cc-pd-character { content: "🕌"; }
+%entypo-cc-zero-character { content: "🕍"; }
+%entypo-cc-share-character { content: "🕎"; }
+%entypo-cc-remix-character { content: "🕏"; }
+%entypo-db-logo-character { content: "🗹"; }
+%entypo-db-shape-character { content: "🗺"; }
