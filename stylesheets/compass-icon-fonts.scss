@@ -1,7 +1,7 @@
 $compass-icon-fonts-horizontalPadding: 0.2em !default;
 
 @mixin compass-icon-fonts-family() {
-  @include font-face($compass-icon-fonts-family, $compass-icon-fonts-files);
+  @include font-face($compass-icon-fonts-family, $compass-icon-fonts-files, $compass-icon-fonts-eot);
 
   %compass-icon-fonts-#{$compass-icon-fonts-class} {
     font-size: $compass-icon-fonts-size;

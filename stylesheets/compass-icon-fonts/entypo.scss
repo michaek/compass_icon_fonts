@@ -1,7 +1,7 @@
 //
 // Entypo
 //
-//   generated 05/15/13 03:35:58 PM
+//   generated 05/28/13 12:07:52 PM
 
 @import "compass/css3/font-face";
 @import "compass-icon-fonts";
@@ -10,7 +10,9 @@ $compass-icon-fonts-family: "Entypo";
 
 $compass-icon-fonts-class: "entypo";
 
-$compass-icon-fonts-files: font-files("entypo.eot", "entypo.woff", "entypo.ttf", "entypo.svg");
+$compass-icon-fonts-eot: "entypo.eot";
+
+$compass-icon-fonts-files: font-files("entypo.woff", "entypo.ttf", "entypo.svg");
 
 $compass-icon-fonts-size: 1.25em;
 

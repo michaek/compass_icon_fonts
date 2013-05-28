@@ -53,7 +53,7 @@ module CompassIconFonts::Fonts
       destination = 'stylesheets/compass-icon-fonts/%s.scss' % dashed_name
       erb = ERB.new(File.read(File.expand_path(template, CompassIconFonts.base_directory)))
 
-      locals = { name: name, variable: dashed_name, pairs: pairs, size: size, files: fonts.product(extensions).map{|file| file.join '.' } }
+      locals = { name: name, variable: dashed_name, pairs: pairs, size: size, files: fonts.product(extensions.reject{|ext| ext == 'eot'}).map{|file| file.join '.' } }
       scss = erb.result(OpenStruct.new(locals).instance_eval{ binding })
 
       File.write(File.expand_path(destination, CompassIconFonts.base_directory), scss)
